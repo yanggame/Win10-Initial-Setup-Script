@@ -1,0 +1,57 @@
+#liunet
+#region Privacy Tweaks
+DisableTelemetry
+DisableWiFiSense
+DisableAppSuggestions
+DisableMapUpdates
+DisableFeedback
+DisableTailoredExperiences
+DisableAdvertisingID
+DisableErrorReporting
+DisableDiagTrack
+
+#region UWP Privacy Tweaks
+
+#region Security Tweaks
+HideAccountProtectionWarn
+
+#region Network Tweaks
+
+#region Service Tweaks
+EnableUpdateMSProducts
+DisableSharedExperiences
+DisableDefragmentation
+DisableFastStartup
+
+#region UI Tweaks
+ShowTaskbarSearchIcon
+HideTaskbarPeopleIcon
+
+#region Explorer UI Tweaks
+ShowRecycleBinOnDesktop
+ShowThisPCOnDesktop
+ShowUserFolderOnDesktop
+DisableThumbnailCache
+DisableThumbsDBOnNetwork
+
+#region Application Tweaks
+DisableEdgePreload
+DisableIEFirstRun
+
+#region Server specific Tweaks
+
+#region Unpinning
+
+#region MyTweak
+UnpinMailTaskbar
+DisableStoreAutoUpdate
+DisableLookAppFromStore
+DisableEdgePrelaunch
+EnableAutoRegistryBackup
+DisableFastBoot
+DisableOOBE
+DisableNewsAndInterests
+DisableJavaAutoUpdate
+
+#region Auxiliary Functions
+WaitForKey

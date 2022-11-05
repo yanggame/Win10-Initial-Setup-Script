@@ -1,0 +1,84 @@
+#classroom
+#region Privacy Tweaks
+DisableTelemetry
+DisableCortana
+DisableWiFiSense
+DisableWebSearch
+DisableActivityHistory
+DisableAppSuggestions
+DisableMapUpdates
+DisableFeedback
+DisableTailoredExperiences
+DisableAdvertisingID
+DisableBiometrics
+DisableErrorReporting
+SetP2PUpdateDisable
+DisableDiagTrack
+DisableWAPPush
+
+#region UWP Privacy Tweaks
+DisableUWPBackgroundApps
+
+#region Security Tweaks
+EnableSharingMappedDrives
+DisableDefenderCloud
+HideAccountProtectionWarn
+
+#region Network Tweaks
+DisableNetDevicesAutoInst
+DisableIPv6
+
+#region Service Tweaks
+EnableUpdateMSProducts
+DisableSharedExperiences
+DisableAutorun
+DisableRestorePoints
+DisableStorageSense
+DisableDefragmentation
+DisableHibernation
+DisableFastStartup
+
+#region UI Tweaks
+ShowTaskManagerDetails
+ShowTaskbarSearchIcon
+HideTaskbarPeopleIcon
+DisableSearchAppInStore
+DisableNewAppPrompt
+HideRecentlyAddedApps
+SetControlPanelSmallIcons
+DisableShortcutInName
+
+#region Explorer UI Tweaks
+ShowExplorerTitleFullPath
+ShowEmptyDrives
+ShowSelectCheckboxes
+SetExplorerThisPC
+ShowRecycleBinOnDesktop
+ShowThisPCOnDesktop
+ShowUserFolderOnDesktop
+DisableThumbnailCache
+DisableThumbsDBOnNetwork
+
+#region Application Tweaks
+DisableEdgePreload
+DisableIEFirstRun
+DisableMediaSharing
+
+#region Server specific Tweaks
+
+#region Unpinning
+
+#region MyTweak
+UnpinMailTaskbar
+DisableStoreAutoUpdate
+DisableStartupDelay
+DisableLookAppFromStore
+DisableEdgePrelaunch
+EnableAutoRegistryBackup
+DisableFastBoot
+DisableOOBE
+DisableNewsAndInterests
+DisableJavaAutoUpdate
+
+#region Auxiliary Functions
+WaitForKey

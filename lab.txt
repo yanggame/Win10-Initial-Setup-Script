@@ -1,0 +1,123 @@
+#lab
+#region Privacy Tweaks
+DisableTelemetry
+DisableCortana
+DisableWiFiSense
+DisableWebSearch
+DisableActivityHistory
+DisableAppSuggestions
+DisableActivityHistory
+DisableMapUpdates
+DisableFeedback
+DisableTailoredExperiences
+DisableAdvertisingID
+DisableBiometrics
+DisableErrorReporting
+SetP2PUpdateDisable
+DisableDiagTrack
+DisableWAPPush
+EnableClearRecentFiles
+DisableRecentFiles
+
+#region UWP Privacy Tweaks
+DisableUWPBackgroundApps
+DisableUWPVoiceActivation
+DisableUWPNotifications
+DisableUWPAccountInfo
+DisableUWPContacts
+DisableUWPCalendar
+DisableUWPPhoneCalls
+DisableUWPCallHistory
+DisableUWPEmail
+DisableUWPTasks
+DisableUWPMessaging
+DisableUWPRadios
+DisableUWPDiagInfo
+
+#region Security Tweaks
+EnableSharingMappedDrives
+DisableFirewall
+HideDefenderTrayIcon
+DisableDefenderCloud
+HideAccountProtectionWarn
+
+#region Network Tweaks
+DisableNetDevicesAutoInst
+DisableIPv6
+EnableRemoteAssistance
+EnableRemoteDesktop
+
+#region Service Tweaks
+EnableUpdateMSProducts
+DisableUpdateAutoDownload
+DisableUpdateRestart
+DisableMaintenanceWakeUp
+DisableSharedExperiences
+DisableAutoplay
+DisableAutorun
+DisableRestorePoints
+DisableStorageSense
+DisableDefragmentation
+DisableHibernation
+DisableFastStartup
+DisableAutoRebootOnCrash
+
+#region UI Tweaks
+DisableActionCenter
+DisableLockScreen
+DisableLockScreenRS1
+ShowTaskManagerDetails
+HideTaskbarSearch
+HideTaskView
+HideTaskbarPeopleIcon
+DisableSearchAppInStore
+DisableNewAppPrompt
+HideRecentlyAddedApps
+HideMostUsedApps
+SetControlPanelSmallIcons
+DisableShortcutInName
+EnableVerboseStatus
+
+#region Explorer UI Tweaks
+ShowExplorerTitleFullPath
+ShowEmptyDrives
+DisableRestoreFldrWindows
+ShowSelectCheckboxes
+HideRecentShortcuts
+SetExplorerThisPC
+HideQuickAccess
+ShowRecycleBinOnDesktop
+ShowThisPCOnDesktop
+ShowUserFolderOnDesktop
+DisableThumbnailCache
+DisableThumbsDBOnNetwork
+
+#region Application Tweaks
+DisableOneDrive
+UninstallOneDrive
+DisableEdgePreload
+DisableIEFirstRun
+DisableFirstLogonAnimation
+DisableMediaSharing
+
+#region Server specific Tweaks
+
+#region Unpinning
+
+#region MyTweak
+UnpinMailTaskbar
+DisableStoreAutoUpdate
+DisableStartupDelay
+EnableNetworkDriveUAC
+DisableWindowsInkWorkspace
+DisableLiveTiles
+DisableLookAppFromStore
+DisableEdgePrelaunch
+EnableAutoRegistryBackup
+DisableFastBoot
+DisableOOBE
+DisableNewsAndInterests
+DisableJavaAutoUpdate
+
+#region Auxiliary Functions
+WaitForKey
