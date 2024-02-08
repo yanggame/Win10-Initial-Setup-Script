@@ -118,6 +118,7 @@ DisableFastBoot
 DisableOOBE
 DisableNewsAndInterests
 DisableJavaAutoUpdate
+DisableAdobeAcrobatAutoUpdate
 
 #region Auxiliary Functions
 WaitForKey

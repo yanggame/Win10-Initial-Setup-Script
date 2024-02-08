@@ -191,3 +191,16 @@ Function EnableJavaAutoUpdate {
 	Remove-ItemProperty -Path "HKLM:\SOFTWARE\Wow6432Node\JavaSoft\Java Update\Policy" -Name "NotifyDownload" -ErrorAction
 	Remove-ItemProperty -Path "HKLM:\SOFTWARE\Wow6432Node\JavaSoft\Java Update\Policy" -Name "EnableJavaUpdate" -ErrorAction
 }
+
+Function DisableAdobeAcrobatAutoUpdate {
+	Write-Output "Disable Adobe Acrobat Auto Update..."
+If (!(Test-Path "HKLM:\SOFTWARE\Policies\Adobe\Adobe Acrobat\DC\FeatureLockDown")) {
+        New-Item -Path "HKLM:\SOFTWARE\Policies\Adobe\Adobe Acrobat\DC\FeatureLockDown" -Force | Out-Null
+    }
+	Set-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Adobe\Acrobat Reader\DC\FeatureLockDown" -Name "bUpdater" -Type DWord -Value 0
+}
+
+Function EnableeAdobeAcrobatAutoUpdate {
+	Write-Output "Enable Adobe Acrobat Auto Update..."
+	Remove-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Adobe\Acrobat Reader\DC\FeatureLockDown" -Name "bUpdater" -ErrorAction
+}
