@@ -197,10 +197,10 @@ Function DisableAdobeAcrobatAutoUpdate {
 If (!(Test-Path "HKLM:\SOFTWARE\Policies\Adobe\Adobe Acrobat\DC\FeatureLockDown")) {
         New-Item -Path "HKLM:\SOFTWARE\Policies\Adobe\Adobe Acrobat\DC\FeatureLockDown" -Force | Out-Null
     }
-	Set-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Adobe\Acrobat Reader\DC\FeatureLockDown" -Name "bUpdater" -Type DWord -Value 0
+	Set-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Adobe\Adobe Acrobat\DC\FeatureLockDown" -Name "bUpdater" -Type DWord -Value 0
 }
 
 Function EnableeAdobeAcrobatAutoUpdate {
 	Write-Output "Enable Adobe Acrobat Auto Update..."
-	Remove-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Adobe\Acrobat Reader\DC\FeatureLockDown" -Name "bUpdater" -ErrorAction
+	Remove-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Adobe\Adobe Acrobat\DC\FeatureLockDown" -Name "bUpdater" -ErrorAction
 }
